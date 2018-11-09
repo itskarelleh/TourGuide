@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/easton"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="#FFFFFF"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <!--Entertainment-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/entertainment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/categoryStyle"
+                    android:text="@string/entertainment" />
+                <ImageView
+                    style="@style/iconStyle"
+                    android:src="@drawable/outline_local_play_black_18dp"/>
+            </FrameLayout>
+
+            <!--Shopping-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/shopping"
+                    style="@style/categoryStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shopping" />
+
+                <ImageView
+                    style="@style/iconStyle"
+                    android:src="@drawable/outline_store_mall_directory_black_18dp"/>
+            </FrameLayout>
+
+            <!--Museums-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/museums"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/categoryStyle"
+                    android:text="@string/museums" />
+
+                <ImageView
+                    style="@style/iconStyle"
+                    android:src="@drawable/outline_color_lens_black_18dp"/>
+            </FrameLayout>
+
+            <!--Parks-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/parks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/parks"
+                    style="@style/categoryStyle" />
+
+                <ImageView
+                    style="@style/iconStyle"
+                    android:src="@drawable/outline_local_florist_black_18dp"/>
+            </FrameLayout>
+
+        </LinearLayout>
+</LinearLayout>

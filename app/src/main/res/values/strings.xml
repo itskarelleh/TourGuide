@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="museums">Museums</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="shopping">Shopping</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="welcome">Welcome to Easton, PA!</string>
+    <string name="parks">Parks</string>
+    <string name="title_activity_restaurants">restaurants</string>
+
+    <!--Location Details-->
+    <string name="crayola">Crayola Experience</string>
+    <string name="crayola_addr">30 Centre Square\m Easton, PA 18042</string>
+    <string name="crayola_desc">Roomy, crayon-centric warehouse with colorul kid-friendly activities, events, a cafe &amp; a store</string>
+
+    <string name="state_theater">State Theater Center for the Arts</string>
+    <string name="state_theater_addr">453 Northampton St,\n Easton, PA, 18042</string>
+    <string name="state_theater_desc">The State Theater is a 1,500-seat historic theater</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
